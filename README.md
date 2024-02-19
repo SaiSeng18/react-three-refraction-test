@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React Three Fiber Refraction Experiment
 
-## Getting Started
+This project is an exploration of refraction effects using React Three Fiber and Three.js. It features a diamond and a glass sphere model to visualize the refraction.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- React Three Fiber: A React renderer for Three.js.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Three.js: A cross-browser JavaScript library used to create and display animated 3D computer graphics in a web browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Leva: A lightweight and customizable React UI controls library.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- React Three-stdlib: A collection of useful tools for use with React Three Fiber.
 
-## Learn More
+- React Three Postprocessing: A postprocessing library for React Three Fiber.
 
-To learn more about Next.js, take a look at the following resources:
+- Caustics: Used to simulate the way light interacts with the diamond and glass sphere models.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To get a local copy up and running, follow these steps:
 
-## Deploy on Vercel
+    git  clone https://github.com/SaiSeng18/react-three-refraction-test.git
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    cd react-three-refraction-test
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    npm  install
+
+## Usage
+
+To start the application:
+
+    npm  start
+
+This will start the application and open it in your default web browser.
+
+## Contributing
+
+Contributions are always welcome! Please read the contributing.md file for ways to get started.
+
+## License
+
+Include information about the license. If you're using a standard license like MIT, you can just state that and link to it.

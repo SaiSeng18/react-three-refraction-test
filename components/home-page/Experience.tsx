@@ -1,8 +1,8 @@
 "use client";
 
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import { useRef, useState } from "react";
-import { Group, Mesh } from "three";
+import { Canvas, useLoader } from "@react-three/fiber";
+import { useRef } from "react";
+import { Mesh } from "three";
 import {
 	Stats,
 	OrbitControls,
